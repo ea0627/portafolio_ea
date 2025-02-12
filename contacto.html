@@ -45,7 +45,7 @@
         <p class="text-center">¿Tienes una oportunidad laboral o un proyecto en mente? ¡Contáctame!</p>
         <div class="row justify-content-center">
             <div class="col-md-6">
-                <form>
+                <form action="https://formspree.io/f/xvgzbrrp" method="POST">
                     <div class="mb-3">
                         <label for="nombre" class="form-label">Nombre</label>
                         <input class="form-control" name="nombre" type="text" placeholder="Tu nombre" required>
@@ -60,6 +60,12 @@
                     </div>
                     <button type="submit" class="btn btn-primary w-100">Enviar</button>
                 </form>
+
+                <div id="mensaje-enviado" class="alert alert-success mt-3 text-center" style="display: none;">
+                    ✅ ¡Tu mensaje ha sido enviado con exito! ✅ <br> Me podré en contacto contigo pronto.
+
+                </div>
+
             </div>
         </div>
     </section>
