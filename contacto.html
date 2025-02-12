@@ -43,22 +43,22 @@
     <section id="contacto" class="container mt-5 pt-5" data-aos="fade-up">
         <h2 class="text-center mb-4">Contacto</h2>
         <p class="text-center">¿Tienes una oportunidad laboral o un proyecto en mente? ¡Contáctame!</p>
-        <div>
-            <div>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
                 <form>
-                    <div>
-                        <label>nombre</label>
-                        <input type="text" placeholder="Tu nombre" required>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input class="form-control" name="nombre" type="text" placeholder="Tu nombre" required>
                     </div>
-                    <div>
-                        <label>E-mail</label>
-                        <input type="email" placeholder="tuemail@dominio.com" required>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" name="email" placeholder="tuemail@dominio.com" required>
                     </div>
-                    <div>
-                        <label for="mensaje">Mensaje</label>
-                        <textarea placeholder="Escribe aqui tu mensaje"></textarea>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control" name="mensaje" rows="4" placeholder="Escribe aqui tu mensaje" required></textarea>
                     </div>
-                    <button type="submit">Enviar</button>
+                    <button type="submit" class="btn btn-primary w-100">Enviar</button>
                 </form>
             </div>
         </div>
