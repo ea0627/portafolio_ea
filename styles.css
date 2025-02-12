@@ -1,0 +1,31 @@
+body {
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+#inicio {
+    background: url(assets/banner.png) no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+}
+
+.inicio-contenido {
+    background: rgba(0,0,0,0.5);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.navbar {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #343a40;
+    color: aliceblue;
+    padding: 20px 0;
+}
